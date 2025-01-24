@@ -365,7 +365,9 @@ margin-top:-350px;
     width: 350px;
     box-shadow: 2px 5px rgba(0, 0, 0, 0.027);
     margin-top: 200px;
-    height: 300px;
+    height: 370px;
+    background-color: white;
+    margin-bottom: 50px;
 }
 
 .course-card img {
@@ -418,22 +420,98 @@ margin-top:-350px;
 .sales {
     margin-right: 320px;
     font-weight: bold;
-    margin-top: -130px;
+    margin-top: -100px;
 }
 
 .price {
     font-weight: bold;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-left:-400px;
     margin-right: 210px;
 }
 
-.learn-more {
-    display: inline-flex;
+.course-details a {
+    
     align-items: center;
-    padding: 10px 20px;
     color:green;
     border-radius: 5px;
-    border-radius: 40px;
+    width: 200px; 
+}
+
+/* start user-reviews*/
+.user-reviews {
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
     
 }
+.user-reviews h3 {
+    font-size: small;
+    margin-right: 750px;
+    margin-bottom: -100px;
+    padding-top: 100px;
+    color: green;
+    
+
+}
+.user-reviews h2 {
+    margin-top: 100px;
+    color: #000;
+    font-size: large;
+    
+}
+
+
+.user-reviews p{
+    max-width: 490px;
+    margin-left:565px;
+    margin-bottom:100px;
+}
+.user-reviews-card{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+
+    padding: 20px;
+    
+    width: 250px;
+    
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.star span {
+    color: gold;
+    margin-right: 2px;
+    
+}
+.user-reviews-card p{
+ width:180px;
+ margin-top: 70px;
+ margin-left: 250px;
+}
+
+.client-info {
+    text-align: center;
+}
+
+.client-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: -160px;
+}
+
+.client-info p {
+    margin-bottom: 5px;
+    margin-left: 320px;
+    margin-top: -54px;
+    color: green;
+}
+/* end user-reviews*/
